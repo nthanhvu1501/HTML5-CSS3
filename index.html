@@ -1,13 +1,94 @@
 <!doctype html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-    <h1>Hello World</h1>
+    <div id="wrapper">
+        <header id="header">
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li><a href="#">trang chủ</a></li>
+                    <li><a href="#">giới thiệu</a></li>
+                    <li class="has-child"><a href="#">liên hệ</a>
+                        <ul class="nav__list nav__list--lv2">
+                            <li><a href="#">Số điện thoại</a></li>
+                            <li><a href="#">Email</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">sứ mệnh</a></li>
+                    <li><a href="#">lịch sử</a></li>
+                </ul>
+            </nav>
+        </header>
+        <!--end header-->
+        <main id="main">
+            <div class="banner">
+                <img src="./img/banner.jpg" alt="">
+                <div class="banner__content">
+                    <h1 class="banner__title">RỰC RỠ SẮC VÀNG</h1>
+                    <h2 class="banner__desc">Hoa hướng dương tượng trưng cho sự đáng yêu, trung thành và trường thọ.
+                    </h2>
+                    <form action="" class="search-box">
+                        <input id="search__input" class="search__input" placeholder="Tìm kiếm">
+                        <button type="button" class="search__btn">Tìm kiếm</button>
+                    </form>
+                </div>
+            </div>
+            <!--end banner-->
+            <div class="main__content">
+                <div class="row">
+                    <div class="col-4 row__left">
+                        <img src="./img/huongduong1.webp" alt="">
+                    </div>
+                    <div class="col-8 row__right">
+                        <div class="content">
+                            BÓ HOA HƯỚNG DƯƠNG là một trong những món quà được nhiều người lựa chọn vì nó không chỉ đem
+                            lại vẻ đẹp mà còn thể hiện được tình cảm của người tặng đến người được tặng trong ngày đặc
+                            biệt của họ. Vẻ đẹp của hoa là một phần không thể thiếu trong cuộc sống chính vì lý do đó mà
+                            món quà từ hoa sẽ thật tinh tế và đầy ý nghĩa nếu bạn đang băn khoăn không biết nên tặng món
+                            quà ra sao hoặc muốn tặng thêm hoa đi kèm bên cạnh món quà chính. Tùy theo từng lứa tuổi,
+                            mối quan hệ… mà việc chọn BÓ HOA HƯỚNG DƯƠNG cũng sẽ khác nhau làm sao để đem đến món quà
+                            đẹp, trang nhã mà thể hiện được hết lời bạn muốn nhắn gửi thay vì các kiểu hoa đơn giản trên
+                            thị trường. Mỗi loại hoa lại mang trong mình những thông điệp riêng mà bạn nên tìm hiểu
+                            trước khi lựa chọn.
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col-4 row__left">
+                        <img src="./img/huongduong2.webp" alt="">
+                    </div>
+                    <div class="col-8 row__right">
+                        <div class="content">
+                            Những loài hoa đẹp là món quà mà mẹ thiên nhiên đã đem đến cho chúng ta. Người ta thường
+                            nói: “Vẻ đẹp rực rỡ của hoa là minh chứng cho vẻ đẹp của tình yêu, hoa có thể tàn úa nhưng
+                            tình yêu thì bất diệt”. Chính vì thế, món quà từ Bó hoa hướng dương luôn là sự lựa chọn hàng
+                            đầu khi bạn muốn bày tỏ những tình cảm đẹp nhất của mình đến cho một nửa còn lại. Một Bó hoa
+                            hướng dương đẹp luôn khiến cho mọi người hạnh phúc và cảm thấy đầy yêu thương. Và tùy theo
+                            từng dịp, sở thích và đối tượng mà việc lựa chọn các loại hoa trao tặng cũng khác nhau.
+                            Những Bó hoa hướng dương không chỉ là lời khen, lời chúc mà còn là lời yêu thương mà bạn
+                            trao tặng đến một nửa gắn kết trên thế giới của mình thay cho những xúc cảm ngọt ngào như vẻ
+                            đẹp của những đóa hoa rạng ngời. Bó hoa hướng dương - rực rỡ và rạng ngời với sắc vàng của
+                            hoa mặt trời. Trao yêu thương trong cánh hoa hướng dương rực rỡ.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        <footer id="footer">
+            <h4>PC07201 - NGUYỄN THANH VŨ - WD18305</h4>
+        </footer>
+    </div>
 </body>
+
 </html>
