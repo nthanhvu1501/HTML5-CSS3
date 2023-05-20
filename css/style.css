@@ -26,6 +26,9 @@ img{
     max-width: 100%;
     width: 100%;
 }
+button{
+    cursor: pointer;
+}
 input, button{
     outline: none;
     border: none;
