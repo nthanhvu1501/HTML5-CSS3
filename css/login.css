@@ -1,0 +1,14 @@
+.login-form{
+    width: 450px;
+    background-color: #ffff;
+    padding: 20px;
+    border-radius: 10px;
+}
+h1{
+    color: var(--main-color);
+    margin-bottom: 40px;
+}
+button{
+    text-transform: uppercase;
+    font-weight: 600;
+}
